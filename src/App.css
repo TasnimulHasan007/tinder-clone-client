@@ -1,0 +1,6 @@
+.app {
+  position: relative;
+  height: 100vh;
+  width: min(100%, 640px);
+  margin: auto;
+}

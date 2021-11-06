@@ -8,8 +8,8 @@
 }
 
 .swipe__buttons .MuiIconButton-root {
-  background: #fff;
-  box-shadow: 0 10px 50px rgb(0 0 0 / 30%) !important;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 21px #acacac, -10px -10px 21px #ffffff;
   padding: 1.2rem;
 }
 

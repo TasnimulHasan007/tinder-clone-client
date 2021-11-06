@@ -3,13 +3,13 @@ import { Replay, Close, StarRate, Favorite, FlashOn } from '@material-ui/icons'
 import { IconButton } from '@material-ui/core'
 import './SwipeButtons.css'
 
-const SwipeButtons = () => {
+const SwipeButtons = ({ setProducts }) => {
   return (
     <div className="swipe__buttons">
-      <IconButton className="repeat">
+      <IconButton onClick={() => window.location.reload()} className="repeat">
         <Replay fontSize="large" />
       </IconButton>
-      <IconButton className="left">
+      <IconButton onClick={() => setProducts([])} className="left">
         <Close fontSize="large" />
       </IconButton>
       <IconButton className="star">

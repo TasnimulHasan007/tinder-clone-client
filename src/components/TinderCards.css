@@ -1,25 +1,22 @@
 .card__container {
-  display: flex;
-  justify-content: center;
-  margin-top: 10vh;
+  margin: 10vh auto;
+  box-shadow: 10px 10px 41px #cccccc, -10px -10px 41px #f4f4f4;
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 21px #acacac, -10px -10px 21px #ffffff;
+  height: 50vh;
+  width: min(600px, 85vw);
 }
 
 .card {
+  border-radius: 20px;
+  height: 50vh;
+  width: min(600px, 85vw);
+  padding: 20px;
   position: relative;
   color: #fff;
-  width: min(600px, 85vw);
-  height: 50vh;
-  padding: 20px;
-  box-shadow: 0 20px 50px rgb(0 0 0 / 30%);
-  border-radius: 20px;
   background-size: cover;
   background-position: center;
-}
-
-.card h3 {
-  position: absolute;
-  margin: 10px;
-  bottom: 0;
 }
 
 .swipe {
