@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import TinderCard from 'react-tinder-card'
-import styles from './TinderCards.module.css'
+import './TinderCards.css'
 
 const TinderCards = () => {
   // people state
@@ -18,17 +18,17 @@ const TinderCards = () => {
   ])
 
   return (
-    <div className={styles.tinder__cards}>
-      <div className={styles.card__container}>
+    <div className="tinder__cards">
+      <div className="card__container">
         {people.map(person => (
           <TinderCard
             key={person.id}
-            className={styles.swipe}
+            className="swipe"
             preventSwipe={['up', 'down']}
           >
             <div
               style={{ backgroundImage: `url(${person.url})` }}
-              className={styles.card}
+              className="card"
             >
               <h3>{person.name}</h3>
             </div>
